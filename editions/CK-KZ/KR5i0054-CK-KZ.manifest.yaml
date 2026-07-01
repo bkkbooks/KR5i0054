@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR5i0054/CK-KZ/v1
+canonical_location: https://kanripo.org/bkk/KR5i0054/CK-KZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 微言摘要
+  date: '2015-08-29 17:53:45.109517'
+  source:
+    repository: kanripo
+    path: KR5i0054
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  edition:
+    short: CK-KZ
+    label: 【重刊道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0054_001-CK-KZ.yaml, hash: 'sha256:6dde78babb028712576968e0ed3f117e31495ad282e151376833b7cfa6936dd8'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0054_001-CK-KZ.markers.yaml, hash: 'sha256:399c176c0a06194bf1bde37457253f77691c09fe448838444eec297265a23d7a'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: CK-KZ_KR5i0054_01p073a
+    span:
+    - body
+    - 0
+    - 13746
+  label: juan 001
+  type: section
+  level: 1
+hash: sha256:3afcbac527dec8f2aa06513abad747018510ede6c7ad4043900364902f879e84
